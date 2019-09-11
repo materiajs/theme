@@ -9,18 +9,11 @@ const getColorsFromKey = (getKey: string, returnKey: string) => new Array(10).fi
   }), {});
 
 export default {
-  colors: {
-    success: '#28a745',
-    danger: '#F44336',
-    warn: '#FF9800',
-    default: '',
-    white: '#ffffff',
-  },
   computeTextColor,
   palette,
-  setTheme(theme: {[index: string]:any}) {
+  setTheme(theme: {[index: string]: any}) {
     Object.keys(theme)
-      .forEach(key => this.setThemeVariable(key, theme[key]));
+      .forEach((key) => this.setThemeVariable(key, theme[key]));
   },
   setThemeVariable(property: string, value: string) {
     let propertyName;
@@ -42,14 +35,14 @@ export default {
       ...getColorsFromKey('red-vivid', 'danger'),
     },
     green: {
-      primary: '#388E3C',
+      'primary': '#388E3C',
       'primary-light': '#4CAF50',
-      accent: '#00BCD4',
+      'accent': '#00BCD4',
     },
     blue: {
-      primary: '#1565c0',
+      'primary': '#1565c0',
       'primary-light': '#1e88e5',
-      accent: '#78909c',
+      'accent': '#78909c',
     },
   },
 };

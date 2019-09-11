@@ -1,20 +1,12 @@
-const parseTextColor = (color: string) => {
-    if (!color) {
-        return '';
-    }
-    return (parseInt(color.replace('#', ''), 16) > 0xffffff / 2)
-        ? '#212121' : '#fff';
-};
-
 /* Hex to RGB conversion:
  * http://www.javascripter.net/faq/hextorgb.htm
  */
-const cutHex = h => ((h.charAt(0) === '#') ? h.substring(1, 7) : h);
-const hexToR = h => parseInt((cutHex(h)).substring(0, 2), 16);
-const hexToG = h => parseInt((cutHex(h)).substring(2, 4), 16);
-const hexToB = h => parseInt((cutHex(h)).substring(4, 6), 16);
+const cutHex = (h: string) => ((h.charAt(0) === '#') ? h.substring(1, 7) : h);
+const hexToR = (h: string) => parseInt((cutHex(h)).substring(0, 2), 16);
+const hexToG = (h: string) => parseInt((cutHex(h)).substring(2, 4), 16);
+const hexToB = (h: string) => parseInt((cutHex(h)).substring(4, 6), 16);
 
-const computeTextColor = (color, simple) => {
+const computeTextColor = (color: string, simple: boolean) => {
     const r = hexToR(color);
     const g = hexToG(color);
     const b = hexToB(color);

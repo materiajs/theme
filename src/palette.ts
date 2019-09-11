@@ -1,5 +1,8 @@
-const palette: {[index: string]:any} = {
-    //Light blue
+const palette: {[index: string]: any} = {
+    // defaults
+    'default': '',
+    'white': '#ffffff',
+    // Light blue
     'light-blue-1': '#035388',
     'light-blue-2': '#0B69A3',
     'light-blue-3': '#127FBF',
