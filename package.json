@@ -2,7 +2,7 @@
   "name": "@materiajs/theme",
   "version": "1.0.6",
   "description": "Theme library for MateriaJS",
-  "main": "src/index.ts",
+  "main": "dist",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
