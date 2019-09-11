@@ -15,6 +15,10 @@ export default {
     Object.keys(theme)
       .forEach((key) => this.setThemeVariable(key, theme[key]));
   },
+  init() {
+    this.setThemeVariable('default', palette.default);
+    this.setThemeVariable('white', palette.white);
+  },
   setThemeVariable(property: string, value: string) {
     let propertyName;
     if (property.slice(0, 2) !== '--') {
