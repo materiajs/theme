@@ -79,6 +79,40 @@ const palette: {[index: string]: any} = {
     'indigo-vivid-8': '#98AEEB',
     'indigo-vivid-9': '#BED0F7',
     'indigo-vivid-10': '#E0E8F9',
+    // Cyan
+    'cyan-1': '#044E54',
+    'cyan-2': '#0A6C74',
+    'cyan-3': '#0E7C86',
+    'cyan-4': '#14919B',
+    'cyan-5': '#2CB1BC',
+    'cyan-6': '#38BEC9',
+    'cyan-7': '#54D1DB',
+    'cyan-8': '#87EAF2',
+    'cyan-9': '#BEF8FD',
+    'cyan-10': '#E0FCFF',
+    // Blue
+    'blue-1': '#003E6B',
+    'blue-2': '#0A558C',
+    'blue-3': '#0F609B',
+    'blue-4': '#186FAF',
+    'blue-5': '#2680C2',
+    'blue-6': '#4098D7',
+    'blue-7': '#62B0E8',
+    'blue-8': '#84C5F4',
+    'blue-9': '#B6E0FE',
+    'blue-10': '#DCEEFB',
+    // Blue Grey
+    'blue-grey-1': '#102A43',
+    'blue-grey-2': '#243B53',
+    'blue-grey-3': '#334E68',
+    'blue-grey-4': '#486581',
+    'blue-grey-5': '#627D98',
+    'blue-grey-6': '#829AB1',
+    'blue-grey-7': '#9FB3C8',
+    'blue-grey-8': '#BCCCDC',
+    'blue-grey-9': '#D9E2EC',
+    'blue-grey-10': '#F0F4F8',
+
 };
 
 export default palette;

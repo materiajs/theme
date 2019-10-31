@@ -38,6 +38,12 @@ export default {
       ...getColorsFromKey('pink-vivid', 'support'),
       ...getColorsFromKey('red-vivid', 'danger'),
     },
+    palette2: {
+      ...getColorsFromKey('blue', 'primary'),
+      ...getColorsFromKey('yellow-vivid', 'accent'),
+      ...getColorsFromKey('blue-grey', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
+    },
     green: {
       'primary': '#388E3C',
       'primary-light': '#4CAF50',
