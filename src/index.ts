@@ -44,15 +44,41 @@ export default {
       ...getColorsFromKey('blue-grey', 'support'),
       ...getColorsFromKey('red-vivid', 'danger'),
     },
-    green: {
-      'primary': '#388E3C',
-      'primary-light': '#4CAF50',
-      'accent': '#00BCD4',
+    palette3: { // Palette 1
+      ...getColorsFromKey('cyan', 'primary'),
+      ...getColorsFromKey('blue-grey', 'accent'),
+      ...getColorsFromKey('indigo', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
     },
-    blue: {
-      'primary': '#1565c0',
-      'primary-light': '#1e88e5',
-      'accent': '#78909c',
+    palette4: { // Palette 2
+      ...getColorsFromKey('blue', 'primary'),
+      ...getColorsFromKey('yellow-vivid', 'accent'),
+      ...getColorsFromKey('blue-grey', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
+    },
+    palette5: { // Palette 3
+      ...getColorsFromKey('purple', 'primary'),
+      ...getColorsFromKey('green-vivid', 'accent'),
+      ...getColorsFromKey('blue-grey', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
+    },
+    palette6: { // Palette 4
+      ...getColorsFromKey('green', 'primary'),
+      ...getColorsFromKey('blue-grey', 'accent'),
+      ...getColorsFromKey('blue', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
+    },
+    palette7: { // Palette 5
+      ...getColorsFromKey('blue-grey', 'primary'),
+      ...getColorsFromKey('light-blue', 'accent'),
+      ...getColorsFromKey('pink-vivid', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
+    },
+    palette8: { // Palette 6
+      ...getColorsFromKey('red', 'primary'),
+      ...getColorsFromKey('yellow-vivid', 'accent'),
+      ...getColorsFromKey('warm-grey', 'support'),
+      ...getColorsFromKey('red-vivid', 'danger'),
     },
   },
 };

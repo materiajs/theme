@@ -112,7 +112,17 @@ const palette: {[index: string]: any} = {
     'blue-grey-8': '#BCCCDC',
     'blue-grey-9': '#D9E2EC',
     'blue-grey-10': '#F0F4F8',
-
+    // Warm Grey
+    'warm-grey-1': '#27241D',
+    'warm-grey-2': '#423D33',
+    'warm-grey-3': '#504A40',
+    'warm-grey-4': '#625D52',
+    'warm-grey-5': '#857F72',
+    'warm-grey-6': '#A39E93',
+    'warm-grey-7': '#B8B2A7',
+    'warm-grey-8': '#D3CEC4',
+    'warm-grey-9': '#E8E6E1',
+    'warm-grey-10': '#FAF9F7',
 };
 
 export default palette;
