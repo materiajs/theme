@@ -1,6 +1,6 @@
 {
   "name": "@materiajs/theme",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Theme library for MateriaJS",
   "main": "dist",
   "scripts": {
