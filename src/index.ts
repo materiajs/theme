@@ -57,7 +57,7 @@ export default {
       ...getColorsFromKey('red-vivid', 'danger'),
     },
     palette5: { // Palette 3
-      ...getColorsFromKey('purple', 'primary'),
+      ...getColorsFromKey('purple-vivid', 'primary'),
       ...getColorsFromKey('green-vivid', 'accent'),
       ...getColorsFromKey('blue-grey', 'support'),
       ...getColorsFromKey('red-vivid', 'danger'),
