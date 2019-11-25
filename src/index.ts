@@ -63,7 +63,7 @@ export default {
       ...getColorsFromKey('red-vivid', 'danger'),
     },
     palette6: { // Palette 4
-      ...getColorsFromKey('green', 'primary'),
+      ...getColorsFromKey('green-vivid', 'primary'),
       ...getColorsFromKey('blue-grey', 'accent'),
       ...getColorsFromKey('blue', 'support'),
       ...getColorsFromKey('red-vivid', 'danger'),

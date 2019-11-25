@@ -123,6 +123,17 @@ const palette: {[index: string]: any} = {
     'warm-grey-8': '#D3CEC4',
     'warm-grey-9': '#E8E6E1',
     'warm-grey-10': '#FAF9F7',
+    // Purple vivid
+    'purple-vivid-1': '#44056E',
+    'purple-vivid-2': '#580A94',
+    'purple-vivid-3': '#690CB0',
+    'purple-vivid-4': '#7A0ECC',
+    'purple-vivid-5': '#8719E0',
+    'purple-vivid-6': '#9446ED',
+    'purple-vivid-7': '#A368FC',
+    'purple-vivid-8': '#B990FF',
+    'purple-vivid-9': '#DAC4FF',
+    'purple-vivid-10': '#F2EBFE',
 };
 
 export default palette;
